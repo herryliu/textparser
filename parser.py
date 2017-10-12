@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-import textfsm
-import clitable
-
 import pprint
-import pyeapi
+
 import textfsm
 import clitable
 import pandas as pd
