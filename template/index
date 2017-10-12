@@ -1,0 +1,7 @@
+# First line is the header fields for columns and is mandatory.
+# Regular expressions are supported in all fields except the first.
+# Last field supports variable length command completion.
+# abc[[xyz]] is expanded to abc(x(y(z)?)?)?, regexp inside [[]] is not supported
+#
+Template, Hostname, Vendor, Version, Command
+arista_eos_show_ip_bgp_summary.template, .*, Arista, .*, sh[[ow]] ip bgp summary[[ vrf all]]$
